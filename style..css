@@ -1,0 +1,402 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+header img{
+    width: 170px;
+}
+
+header input{
+    padding: 10px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.082);
+    border: none;
+}
+
+header .icons{
+    display: flex;
+    gap: 30px;
+
+}
+
+header .input-area{
+    display: flex;
+    justify-content: end;
+}
+header .input-area input{
+    position: relative;
+
+}
+
+header .input-area i{
+   
+    position: absolute;
+    margin: 10px;
+    color: orangered;
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0);
+    border-radius: 10px;
+}
+
+
+.icons i{
+    color: orangered;
+}
+
+.icons i:hover{
+    color: orangered;
+    cursor: pointer;
+    transition: .5s;
+}
+.icons span{
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.icons span:hover{
+    color: orangered;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.catagories{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 15px;
+}
+
+.catagories li{
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.catagories li:hover{
+    color: orangered;
+    cursor: pointer;
+}
+
+.hr{
+    color: orangered;
+}
+
+.brands{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.brands img{
+     width: 75px;
+}
+
+.brands div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+}
+.brands img{
+    border-radius: 50px;
+    
+    
+}
+
+.brands img:hover{
+    border: 1px solid orangered;
+    cursor: pointer;
+    transition: .3s;
+    
+}
+.brands span:hover{
+    color:orangered;
+    cursor: pointer;
+    
+}
+.catagories span{
+    color: white;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.titles{
+    display: flex;
+    justify-content: center;
+}
+
+.titles img{
+    width: 400px;
+    padding: 30px;
+    cursor: pointer;
+}
+.titles img:hover{
+    scale: 1.1;
+    transition: .5s;
+}
+
+.cards {
+    border: 2px solid antiquewhite;
+    background-color: rgba(250, 235, 215, 0.313);
+    border-radius: 10px;
+    padding: 30px;
+  }
+  
+  .cards h2 {
+    padding: 10px;
+  }
+  
+  .card{
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+  }
+  
+  .card-all{
+      display: flex;
+      justify-content: center;
+      background-color: rgba(250, 235, 215, 0.313);
+      padding: 10px;
+  }
+  
+  .card-info{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      margin: 10px;
+      border: 1px solid gray;
+      width: 270px;
+      border-radius: 10px;
+  }
+  
+  .card-info img {
+    border-radius: 10px;
+    height: 240px;
+    width: 200px;
+    margin: 10px;
+   
+  }
+  
+  .card-info img:hover {
+    scale: 1.03;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  
+  .card-info .description h4 {
+    font-weight: bold;
+  }
+  
+  .card-info .description h5 {
+    color: gray;
+  }
+  
+  .card-info .description {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    font-size: 13px;
+  }
+
+  .cards2{
+    padding: 10px;
+   
+  }
+
+ 
+  .card-info p{
+    color: orangered;
+  }
+
+  section h2{
+    border: 2px solid antiquewhite;
+    background-color: rgba(250, 235, 215, 0.313);
+    border-radius: 10px;
+    padding: 30px;
+  }
+
+
+  .img-conteiner{
+
+   display: grid;
+    padding: 10px;
+    gap:20px;
+    place-items: center;
+    grid-template-columns: auto auto auto;
+  }
+
+  .img-conteiner img{
+    width: 400px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+
+ 
+
+  .tags{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+.tags div a{
+  
+}
+
+.tags a{
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid;
+    gap: 10px;
+    border-radius: 15px;
+}
+
+.tags a:hover{
+    color: orangered;
+}
+
+ .img-conteiner a{
+    display: block;
+    text-align: center;
+    color:rgba(255, 0, 0, 0.062);
+    font-size: 18px;
+    font-family: sans-serif;
+
+ }
+ .img-conteiner a:hover{
+    cursor: pointer;
+    font-size: larger;
+    transition: .5s;
+    color:rgb(255, 0, 212) ;
+    
+ }
+
+
+ .content{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .popular{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 50px;
+ }
+
+ .popular li{
+    list-style: none;
+    font-size: 20px;
+ }
+
+ .popular h5{
+    font-size: 30px;
+    text-align: left;
+    padding: 10px;
+    text-decoration: underline;
+ }
+ .popular h5:hover{
+    cursor: pointer;
+    background-color: rgba(255, 68, 0, 0.425);
+    transition: .3s;
+    text-shadow: .4s;
+   background-attachment:fixed;
+   text-decoration:underline;
+ }
+
+ footer {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    height: 270px;
+    margin-top: 20px;
+  }
+
+ .foot-title{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10x;
+ }
+
+ .foot-list{
+    padding: 20px;
+    background-color: black;
+    font-family: sans-serif;
+ }
+
+ .foot-list li{
+    list-style-type: none;
+ }
+
+ .foot-img1{
+    padding: 20px;
+    height: 50px;
+    background-color: black;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+   
+ }
+ .foot-img2{
+  padding: 20px;
+  height: 50px;
+  background-color: black;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+ 
+}
+
+ .foot-icons {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      background-color: black;
+      padding: 20px;
+    /* float: 4px; */ /* Consider using margin or padding here */
+  }
+  
+  .foot-icons i:nth-child(1) {
+    color: blue;
+  }
+  
+  .foot-icons i:nth-child(2) {
+    color: tomato;
+  }
+  
+  .foot-icons i:nth-child(3) {
+    color: rgb(52, 151, 243);
+  }
+  
+  .foot-icons i:nth-child(4) {
+    color: rgba(122, 122, 241, 0.596);
+  }
+
+
+footer .copyrigt p{
+   display: flex;
+   justify-content: space-evenly;
+    background-color: black;
+    padding: 20px;
+
+ }
+   
